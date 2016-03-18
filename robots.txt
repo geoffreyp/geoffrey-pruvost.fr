@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /iframeProj.html
+Disallow: /iframeRes.html
+Disallow: /iframeSys.html
+Disallow: /iframeWeb.html
