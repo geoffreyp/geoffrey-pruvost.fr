@@ -8,6 +8,8 @@ RUN apt-get update && \
     cd /var/www/html/ && \
     rm index.html && \
     git clone https://github.com/geoffreyp/geoffrey-pruvost.fr.git  && \
-    mv geoffrey-pruvost.fr/* .
+    mv geoffrey-pruvost.fr/* . && \
+    /data/letsencrypt/letsencrypt-auto --apache --email geoffrey@pruvost.xyz --agree-tos -d geoffreypruvost.fr
+
 
 CMD ["apache2ctl", "-D", "FOREGROUND"]
