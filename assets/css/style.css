@@ -394,8 +394,11 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------- /*
- * Servise
+ * Service
 /* ---------------------------------------------- */
+.row-pres .iconbox{
+	max-height: 270px;
+}
 
 .iconbox {
 	background: #fff;
